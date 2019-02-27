@@ -1,38 +1,41 @@
 body {
 	font-family: 'Rubik', sans-serif;
 	line-height: 30pt;
+	color: #4A6F93;
 }
 
 .logo {
 	margin-top: 5%;
 }
 
-.info {
-	margin-top: 5%;
+.block1 {
+	height: 100vh;
+	background-color: #4A6F93;
+}
+
+.block1min {
+	height: 100vh;
 }
 
 .title {
 	font-weight: 500;
 	font-size: 18pt;
+	margin-top: 5%;
 }
 
-.con {
-	margin-bottom: 30pt;
+.subtitle {
+	font-weight: 500;
+	font-size: 36pt;
 }
 
-.contacts {
-	font-size: 12pt;
-	font-weight: ;
-	border-radius: 4pt;
-	padding-top: 5pt;
-	padding-bottom: 5pt;
-	padding-left: 10pt;
-	padding-right: 10pt;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.0);
-	margin-right: 5pt;
-	margin-top: 10pt;
+.before {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
-.contacts:hover {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.0);
+.inner {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
 }
