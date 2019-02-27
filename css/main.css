@@ -1,0 +1,38 @@
+body {
+	font-family: 'Rubik', sans-serif;
+	line-height: 30pt;
+}
+
+.logo {
+	margin-top: 5%;
+}
+
+.info {
+	margin-top: 5%;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 18pt;
+}
+
+.con {
+	margin-bottom: 30pt;
+}
+
+.contacts {
+	font-size: 12pt;
+	font-weight: ;
+	border-radius: 4pt;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+	padding-left: 10pt;
+	padding-right: 10pt;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.0);
+	margin-right: 5pt;
+	margin-top: 10pt;
+}
+
+.contacts:hover {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.0);
+}
