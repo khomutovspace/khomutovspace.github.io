@@ -25,6 +25,7 @@ body {
 	font-size: 12pt;
 	color: #2653AF;
 	margin-top: -20pt;
+	max-width: 350pt;
 }
 
 .subtext {
@@ -32,6 +33,7 @@ body {
 	font-size: 12pt;
 	color: #2653AF;
 	margin-top: -8pt;
+	max-width: 350pt;
 }
 
 .sublink {
