@@ -34,3 +34,19 @@ body {
 	margin-top: -8pt;
 }
 
+.sublink {
+	font-weight: 500;
+	font-size: 12pt;
+	margin-top: -8pt;
+	color: #898989;
+}
+
+a {
+	color: #898989;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #5b5b5b;
+	text-decoration: none;
+}
