@@ -1,41 +1,36 @@
 body {
 	font-family: 'Rubik', sans-serif;
-	line-height: 30pt;
-	color: #4A6F93;
 }
 
 .logo {
-	margin-top: 5%;
-}
-
-.block1 {
-	height: 100vh;
-	background-color: #4A6F93;
-}
-
-.block1min {
-	height: 100vh;
+	margin-top: 50pt;
 }
 
 .title {
-	font-weight: 500;
-	font-size: 18pt;
+	font-weight: 700;
+	font-size: 36pt;
 	margin-top: 5%;
+	color: #2653AF;
 }
 
 .subtitle {
+	font-weight: 700;
+	font-size: 24pt;
+	margin-top: 5%;
+	color: #2653AF;
+}
+
+.text {
 	font-weight: 500;
-	font-size: 36pt;
+	font-size: 12pt;
+	color: #2653AF;
+	margin-top: -20pt;
 }
 
-.before {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+.subtext {
+	font-weight: 500;
+	font-size: 12pt;
+	color: #2653AF;
+	margin-top: -8pt;
 }
 
-.inner {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 auto;
-}
