@@ -57,4 +57,12 @@ img {
 	color: #898989;
 }
 
+.foottext {
+	font-weight: 500;
+	font-size: 12pt;
+	color: #898989;
+	margin-top: 50pt;
+	margin-bottom: 20pt;
+	max-width: 350pt;
+}
 
