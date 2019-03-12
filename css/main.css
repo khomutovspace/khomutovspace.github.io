@@ -12,10 +12,6 @@ a:hover {
 	text-decoration: none;
 }
 
-img {
-    -webkit-touch-callout: none;
-}
-
 .logo {
 	margin-top: 50pt;
 }
@@ -66,3 +62,28 @@ img {
 	max-width: 350pt;
 }
 
+.cntr {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inverted {
+	background-color: #2653AF;
+}
+
+.subtitle_inv {
+	font-weight: 700;
+	font-size: 24pt;
+	margin-top: 120pt;
+	color: white;
+	text-align: center;
+}
+
+.subtext_inv {
+	font-weight: 400;
+	font-size: 12pt;
+	color: white;
+	margin-top: -16pt;
+	text-align: center;
+}
