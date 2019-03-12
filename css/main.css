@@ -1,5 +1,6 @@
 body {
 	font-family: 'Rubik', sans-serif;
+	color: #2653AF;
 }
 
 a {
@@ -20,20 +21,17 @@ a:hover {
 	font-weight: 700;
 	font-size: 36pt;
 	margin-top: 40pt;
-	color: #2653AF;
 }
 
 .subtitle {
 	font-weight: 700;
 	font-size: 24pt;
 	margin-top: 30pt;
-	color: #2653AF;
 }
 
 .text {
 	font-weight: 500;
 	font-size: 12pt;
-	color: #2653AF;
 	margin-top: -20pt;
 	max-width: 350pt;
 }
@@ -41,7 +39,6 @@ a:hover {
 .subtext {
 	font-weight: 500;
 	font-size: 12pt;
-	color: #2653AF;
 	margin-top: -8pt;
 	max-width: 350pt;
 }
@@ -62,7 +59,7 @@ a:hover {
 	max-width: 350pt;
 }
 
-.cntr {
+.centered {
 	display: flex;
     align-items: center;
     justify-content: center;
@@ -70,20 +67,19 @@ a:hover {
 
 .inverted {
 	background-color: #2653AF;
+	color: white;
 }
 
 .subtitle_inv {
 	font-weight: 700;
 	font-size: 24pt;
 	margin-top: 100pt;
-	color: white;
 	text-align: center;
 }
 
 .subtext_inv {
 	font-weight: 400;
 	font-size: 12pt;
-	color: white;
 	margin-top: -16pt;
 	text-align: center;
 }
