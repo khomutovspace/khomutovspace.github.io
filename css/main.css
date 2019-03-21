@@ -117,3 +117,29 @@ a:hover {
 	padding-right: 20pt;
 	padding-bottom: 20pt;
 }
+
+.download {
+	margin-top: 20pt;
+	padding-top: 8pt;
+	padding-bottom: 8pt;
+	padding-left: 16pt;
+	padding-right: 16pt;
+	border-radius: 2pt;
+    border: none;
+	color: white;
+	background-color: #898989;
+	margin-right: 10pt;
+}
+
+.download:hover {
+	background-color: #5b5b5b;
+	color: white;
+}
+
+.clrd {
+	background-color: #2653AF !important;
+}
+
+.clrd:hover {
+	background-color: #214796 !important;
+}
