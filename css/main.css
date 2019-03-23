@@ -121,6 +121,11 @@ a:hover {
 	border-radius: 2pt;
 }
 
+.card img {
+	width: 100%;
+	height: auto;
+}
+
 .info {
 	margin-top: 20pt;
 }
