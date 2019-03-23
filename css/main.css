@@ -1,6 +1,5 @@
 body {
 	font-family: 'Rubik', sans-serif;
-	color: #2653AF;
 }
 
 a {
@@ -15,111 +14,75 @@ a:hover {
 
 .logo {
 	margin-top: 50pt;
+	margin-bottom: 20pt;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20pt;
+	list-style: none;
+}
+
+.sbmenu {
+	padding: 0;
+	margin: 0;
+	display: inline;
+    margin-right: 10pt;
 }
 
 .title {
+    margin-top: 30pt;
 	font-weight: 700;
 	font-size: 36pt;
-	margin-top: 40pt;
+	color: #2653AF;
 }
 
-.subtitle {
+.sbtitle {
+	margin-top: 30pt;
 	font-weight: 700;
 	font-size: 24pt;
-	margin-top: 30pt;
+    color: #2653AF;
 }
 
 .text {
-	font-weight: 500;
-	font-size: 12pt;
 	margin-top: -20pt;
+	margin-bottom: 30pt;
+	font-weight: 500;
+	font-size: 12pt;
 	max-width: 350pt;
 	color: #262626;
 }
 
-.subtext {
+.sbtext {
+	margin-top: -8pt;
 	font-weight: 500;
 	font-size: 12pt;
-	margin-top: -8pt;
 	max-width: 350pt;
 	color: #262626;
 }
 
-.sublink {
+.sblink {
+	margin-top: -8pt;
 	font-weight: 500;
 	font-size: 12pt;
-	margin-top: -8pt;
 	color: #898989;
 }
 
-.foottext {
+.mnlink {
 	font-weight: 500;
-	font-size: 12pt;
-	color: #898989;
-	margin-top: 50pt;
-	margin-bottom: 20pt;
-	max-width: 350pt;
+	color: #2653AF;
+	text-decoration: none;
 }
 
-.centered {
-	display: flex;
-    align-items: center;
-    justify-content: center;
+.mnlink:hover {
+	color: #214796;
+	text-decoration: none;
 }
 
-.inverted {
-	background-color: #2653AF;
-	color: white;
-}
-
-.subtitle_inv {
-	font-weight: 700;
-	font-size: 24pt;
-	margin-top: 100pt;
-	text-align: center;
-}
-
-.subtext_inv {
-	font-weight: 400;
-	font-size: 12pt;
-	margin-top: -16pt;
-	text-align: center;
-}
-
-.title_tasks {
-	font-weight: 700;
-	font-size: 24pt;
-	color: #262626;
-	margin-top: 20pt;
-}
-
-.subtitle_tasks {
-	font-weight: 700;
-	font-size: 16pt;
-	color: #262626;
-	margin-top: 20pt;
-	max-width: 350pt;
-}
-
-.text_tasks {
-	font-weight: 500;
-	font-size: 12pt;
-	margin-top: -8pt;
-	max-width: 350pt;
-	color: #424242;
-}
-
-.dash {
-	border: dotted 4px;
-	color: #262626;
-    margin-top: 40pt;
-	padding-left: 20pt;
-	padding-right: 20pt;
-	padding-bottom: 20pt;
-}
-
-.download {
+.bttn {
 	margin-top: 10pt;
+	margin-right: 10pt;
 	padding-top: 8pt;
 	padding-bottom: 8pt;
 	padding-left: 12pt;
@@ -128,10 +91,9 @@ a:hover {
     border: none;
 	color: white;
 	background-color: #898989;
-	margin-right: 10pt;
 }
 
-.download:hover {
+.bttn:hover {
 	background-color: #5b5b5b;
 	color: white;
 }
@@ -142,4 +104,40 @@ a:hover {
 
 .clrd:hover {
 	background-color: #214796 !important;
+}
+
+.blue {
+	background-color: #2653AF;
+}
+
+.inv {
+	color: white !important;
+}
+
+.card {
+	margin-top: 10pt;
+	background-color: white;
+	box-shadow: 0pt 5pt 15pt 0pt rgba(0,0,0,0.05);
+	border-radius: 2pt;
+}
+
+.info {
+	margin-top: 20pt;
+}
+
+.inftitle {
+	font-weight: 500;
+	font-size: 12pt;
+	color: #262626;
+}
+
+.card-img {
+	border-radius: 2pt;
+}
+
+.sbbtitle {
+	margin-top: 20pt;
+	font-weight: 700;
+	font-size: 16pt;
+    color: #262626;
 }
