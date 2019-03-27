@@ -2,16 +2,6 @@ body {
 	font-family: 'Rubik', sans-serif;
 }
 
-a {
-	color: #898989;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #5b5b5b;
-	text-decoration: none;
-}
-
 .header {
 	padding-top: 40pt;
 	padding-bottom: 20pt;
@@ -32,46 +22,33 @@ a:hover {
 }
 
 .title {
-    margin-top: 30pt;
+	margin-top: 0;
+	margin-bottom: 26pt;
 	font-weight: 700;
 	font-size: 36pt;
+    line-height: 1;
 	color: #2653AF;
 }
 
 .sbtitle {
-	margin-top: 30pt;
+	margin-top: 0;
+	margin-bottom: 26pt;
 	font-weight: 700;
 	font-size: 24pt;
+    line-height: 1;
     color: #2653AF;
 }
 
-.btitle {
-    margin-top: 0pt;
-    margin-bottom: 10pt;
-	font-weight: 700;
-	font-size: 36pt;
-    color: #262626;
-}
-
-.bsbtitle {
-	margin-top: 20pt;
-	margin-bottom: 5pt;
+.sbsbtitle {
 	font-weight: 700;
 	font-size: 16pt;
-    color: #262626;
+	line-height: 1;
+    color: #2653AF;
 }
 
 .text {
-	margin-top: -20pt;
-	margin-bottom: 30pt;
-	font-weight: 500;
-	font-size: 12pt;
-	max-width: 350pt;
-	color: #262626;
-}
-
-.sbtext {
-	margin-top: -8pt;
+	margin-top: 0;
+	margin-bottom: 20pt;
 	font-weight: 500;
 	font-size: 12pt;
 	max-width: 350pt;
@@ -96,26 +73,13 @@ a:hover {
 	text-decoration: none;
 }
 
+.bttns {
+	margin-top: 30pt;
+}
+
 .bttn {
 	margin-top: -10pt;
 	margin-right: 10pt;
-	margin-bottom: 30pt;
-	padding-top: 6pt;
-	padding-bottom: 6pt;
-	padding-left: 12pt;
-	padding-right: 12pt;
-	border-radius: 2pt;
-    border: 2px solid;
-	color: white;
-	background-color: #2653AF;
-	border-color: #ffffff;
-	font-weight: 500;
-}
-
-.bttn2 {
-	margin-top: 10pt;
-	margin-right: 10pt;
-	margin-bottom: 30pt;
 	padding-top: 6pt;
 	padding-bottom: 6pt;
 	padding-left: 12pt;
@@ -133,34 +97,27 @@ a:hover {
 	color: #e2e2e2;
 }
 
-.bttn2:hover {
-	border-color: #e2e2e2;
-	color: #e2e2e2;
-}
-
-.clrd {
-	background-color: #2653AF !important;
-}
-
-.clrd:hover {
-	background-color: #214796 !important;
-}
-
-.info2 {
-	background-color: #2653AF;
-	margin-top: 10pt;
-}
-
 .info {
+	padding-top: 30pt;
+	padding-bottom: 30pt;
 	background-color: #2653AF;
 }
 
-.inv {
-	color: white !important;
+.exinfo {
+	padding-top: 30pt;
+	padding-bottom: 30pt;
+	background-color: #2653AF;
+}
+
+.light {
+	color: #ffffff !important;
+}
+
+.dark {
+	color: #262626 !important;
 }
 
 .card {
-	margin-top: 10pt;
 	background-color: white;
 	box-shadow: 0pt 5pt 15pt 0pt rgba(0,0,0,0.05);
 	border-radius: 2pt;
@@ -168,7 +125,6 @@ a:hover {
 }
 
 .card:hover {
-	margin-top: 10pt;
 	background-color: white;
 	box-shadow: 0pt 5pt 15pt 0pt rgba(0,0,0,0.20);
 	border-radius: 2pt;
