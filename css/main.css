@@ -21,6 +21,18 @@ body {
     margin-right: 10pt;
 }
 
+.info {
+	padding-top: 30pt;
+	padding-bottom: 30pt;
+	background-color: #2653AF;
+}
+
+.exinfo {
+	padding-top: 30pt;
+	padding-bottom: 30pt;
+	background-color: #2653AF;
+}
+
 .title {
 	margin-top: 0;
 	margin-bottom: 26pt;
@@ -53,13 +65,6 @@ body {
 	font-size: 12pt;
 	max-width: 350pt;
 	color: #262626;
-}
-
-.sblink {
-	margin-top: -8pt;
-	font-weight: 500;
-	font-size: 12pt;
-	color: #898989;
 }
 
 .mnlink {
@@ -97,18 +102,6 @@ body {
 	color: #e2e2e2;
 }
 
-.info {
-	padding-top: 30pt;
-	padding-bottom: 30pt;
-	background-color: #2653AF;
-}
-
-.exinfo {
-	padding-top: 30pt;
-	padding-bottom: 30pt;
-	background-color: #2653AF;
-}
-
 .light {
 	color: #ffffff !important;
 }
@@ -135,4 +128,8 @@ body {
 	width: 100%;
 	height: auto;
 	border-radius: 2pt;
+}
+
+.icn {
+	margin-right: 10pt;
 }
