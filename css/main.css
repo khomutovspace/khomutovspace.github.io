@@ -45,6 +45,22 @@ a:hover {
     color: #2653AF;
 }
 
+.btitle {
+    margin-top: 0pt;
+    margin-bottom: 10pt;
+	font-weight: 700;
+	font-size: 36pt;
+    color: #262626;
+}
+
+.bsbtitle {
+	margin-top: 20pt;
+	margin-bottom: 5pt;
+	font-weight: 700;
+	font-size: 16pt;
+    color: #262626;
+}
+
 .text {
 	margin-top: -20pt;
 	margin-bottom: 30pt;
@@ -81,21 +97,25 @@ a:hover {
 }
 
 .bttn {
-	margin-top: 10pt;
+	margin-top: -10pt;
 	margin-right: 10pt;
-	padding-top: 8pt;
-	padding-bottom: 8pt;
+	margin-bottom: 30pt;
+	padding-top: 6pt;
+	padding-bottom: 6pt;
 	padding-left: 12pt;
 	padding-right: 12pt;
 	border-radius: 2pt;
-    border: none;
+    border: 2px solid;
 	color: white;
-	background-color: #898989;
+	background-color: #2653AF;
+	border-color: #ffffff;
+	font-weight: 500;
+
 }
 
 .bttn:hover {
-	background-color: #5b5b5b;
-	color: white;
+	border-color: #e2e2e2;
+	color: #e2e2e2;
 }
 
 .clrd {
@@ -133,24 +153,5 @@ a:hover {
 .card img {
 	width: 100%;
 	height: auto;
-}
-
-.card-img {
 	border-radius: 2pt;
-}
-
-.bsbtitle {
-	margin-top: 20pt;
-	margin-bottom: 5pt;
-	font-weight: 700;
-	font-size: 16pt;
-    color: #262626;
-}
-
-.btitle {
-    margin-top: 0pt;
-    margin-bottom: 10pt;
-	font-weight: 700;
-	font-size: 36pt;
-    color: #262626;
 }
