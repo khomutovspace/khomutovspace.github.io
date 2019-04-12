@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-	padding-top: 40pt;
+	padding-top: 60pt;
 	padding-bottom: 20pt;
 }
 
@@ -52,6 +52,13 @@ body {
 	font-size: 10pt;
 	max-width: 350pt;
 	color: #fff;
+}
+
+.errordiv {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .title {
