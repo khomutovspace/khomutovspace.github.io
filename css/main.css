@@ -33,6 +33,27 @@ body {
 	background-color: #2653AF;
 }
 
+.xinfo {
+	padding-top: 30pt;
+	padding-bottom: 30pt;
+}
+
+.minfo {
+	padding-top: 10pt;
+	padding-bottom: 10pt;
+    color: white;
+	background-color: #fc3824;
+}
+
+.error {
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-weight: 500;
+	font-size: 10pt;
+	max-width: 350pt;
+	color: #fff;
+}
+
 .title {
 	margin-top: 0;
 	margin-bottom: 26pt;
@@ -100,6 +121,12 @@ body {
 .bttn:hover {
 	border-color: #e2e2e2;
 	color: #e2e2e2;
+}
+
+.rev {
+	border-color: #2653AF;
+	background-color: #fff;
+	color: #2653AF;
 }
 
 .light {
