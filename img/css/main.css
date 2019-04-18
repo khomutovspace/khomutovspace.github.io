@@ -1,0 +1,190 @@
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #dbdbdb;
+}
+
+.header {
+	padding-top: 30pt;
+	padding-bottom: 20pt;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	margin-top: 20pt;
+	list-style: none;
+}
+
+.sbmenu {
+	padding: 0;
+	margin: 0;
+	display: inline;
+    margin-right: 10pt;
+}
+
+.info {
+	padding-top: 30pt;
+	padding-bottom: 30pt;
+	background-color: #2653AF;
+}
+
+.exinfo {
+	padding-top: 30pt;
+	padding-bottom: 30pt;
+	background-color: #2653AF;
+}
+
+.xinfo {
+	padding-top: 30pt;
+	padding-bottom: 30pt;
+}
+
+.minfo {
+	padding-top: 10pt;
+	padding-bottom: 10pt;
+    color: white;
+	background-color: #fc3824;
+}
+
+.finfo {
+	padding-top: 20pt;
+	padding-bottom: 20pt;
+	background-color: #262626;
+}
+
+.error {
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-weight: 500;
+	font-size: 10pt;
+	max-width: 350pt;
+	color: #fff;
+}
+
+.title {
+	margin-top: 0;
+	margin-bottom: 26pt;
+	font-weight: 700;
+	font-size: 36pt;
+    line-height: 1;
+	color: #2653AF;
+}
+
+.sbtitle {
+	margin-top: 0;
+	margin-bottom: 26pt;
+	font-weight: 700;
+	font-size: 24pt;
+    line-height: 1;
+    color: #2653AF;
+}
+
+.sbsbtitle {
+	font-weight: 700;
+	font-size: 16pt;
+	line-height: 1;
+    color: #2653AF;
+}
+
+.text {
+	margin-top: 0;
+	margin-bottom: 20pt;
+	font-weight: 500;
+	font-size: 12pt;
+	max-width: 350pt;
+	color: #262626;
+}
+
+.descr {
+	margin-top: 0;
+	margin-bottom: 20pt;
+	font-weight: 500;
+	font-size: 12pt;
+	max-width: 500pt;
+	color: #262626;
+}
+
+.foot {
+	margin-bottom: 0pt;
+}
+
+.mnlink {
+	font-weight: 500;
+	color: #2653AF;
+	text-decoration: none;
+}
+
+.mnlink:hover {
+	color: #214796;
+	text-decoration: none;
+}
+
+.bttns {
+	margin-top: 30pt;
+}
+
+.bttn {
+	margin-top: -10pt;
+	margin-right: 10pt;
+	padding-top: 6pt;
+	padding-bottom: 6pt;
+	padding-left: 12pt;
+	padding-right: 12pt;
+	border-radius: 2pt;
+    border: 2px solid;
+	color: white;
+	background-color: #2653AF;
+	border-color: #ffffff;
+	font-weight: 500;
+}
+
+.bttn:hover {
+	border-color: #e2e2e2;
+	color: #e2e2e2;
+}
+
+.rev {
+	border-color: #2653AF;
+	background-color: #fff;
+	color: #2653AF;
+}
+
+.light {
+	color: #ffffff !important;
+}
+
+.dark {
+	color: #262626 !important;
+}
+
+.card {
+	background-color: white;
+	box-shadow: 0pt 5pt 15pt 0pt rgba(0,0,0,0.05);
+	border-radius: 2pt;
+	margin-bottom: 20pt;
+}
+
+.card:hover {
+	background-color: white;
+	box-shadow: 0pt 5pt 15pt 0pt rgba(0,0,0,0.20);
+	border-radius: 2pt;
+	transition: 0.1s;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+	border-radius: 2pt;
+}
+
+.icn {
+	margin-right: 10pt;
+}
