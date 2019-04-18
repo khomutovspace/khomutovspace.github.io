@@ -55,8 +55,8 @@ a:hover {
 }
 
 .finfo {
-	padding-top: 30pt;
-	padding-bottom: 10pt;
+	padding-top: 20pt;
+	padding-bottom: 20pt;
 	background-color: #262626;
 }
 
@@ -110,6 +110,10 @@ a:hover {
 	font-size: 12pt;
 	max-width: 500pt;
 	color: #262626;
+}
+
+.foot {
+	margin-bottom: 0pt;
 }
 
 .mnlink {
