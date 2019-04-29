@@ -188,3 +188,11 @@ a:hover {
 .icn {
 	margin-right: 10pt;
 }
+
+.link {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.link:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
