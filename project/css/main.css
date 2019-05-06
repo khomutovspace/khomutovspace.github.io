@@ -1,0 +1,149 @@
+body {
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgb(0, 0, 0);
+	user-select: none;
+}
+
+a {
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	transition: all 0.3s ease-out;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.link-dark {
+	color: rgb(0, 0, 0);
+	border-bottom-color: rgba(0, 0, 0, .1);
+}
+
+.link-dark:hover {
+	color: rgba(0, 0, 0, .5);
+	border-bottom-color: rgba(0, 0, 0, .05);
+}
+
+.link-light {
+	color: rgb(255, 255, 255);
+	border-bottom-color: rgba(0, 0, 0, .1);
+}
+
+.link-light:hover {
+	color: rgba(255, 255, 255, .7);
+	border-bottom-color: rgba(0, 0, 0, .05);
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 12px;
+	font-size: 48px;
+	line-height: 56px;
+}
+
+h2 {
+	margin-top: 0px;
+	margin-bottom: 9px;
+	font-size: 36px;
+	line-height: 44px;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.header {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.green {
+	background-color: rgb(104, 143, 78);
+}
+
+.top {
+	margin-top: 20px;
+}
+
+.inv {
+	color: rgb(255, 255, 255);
+}
+
+.logo {
+	height: 20px;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu-item {
+	display: inline;
+	margin-right: 10px;
+}
+
+.menu-button {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 14px;
+    line-height: 22px;
+	border-radius: 5px;
+    border: none;
+    background-color: rgba( 0, 0, 0, .05);
+    transition: all 0.3s ease-out;
+}
+
+.menu-button:hover {
+    background-color: rgba( 0, 0, 0, .1);
+}
+
+.menu-button:focus {
+	outline: none;
+}
+
+.article {
+	margin-bottom: 20px;
+	transition: all 0.3s ease-out;
+}
+
+.article:hover {
+	box-shadow: 0pt 5pt 15pt 0pt rgba(0,0,0,0.20);
+}
+
+.article img {
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+.hide {
+	display: none;
+}
+
+.icon {
+	margin-left: 10px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+
