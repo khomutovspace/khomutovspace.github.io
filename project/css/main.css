@@ -17,26 +17,6 @@ a:hover {
 	text-decoration: none;
 }
 
-.link-dark {
-	color: rgb(0, 0, 0);
-	border-bottom-color: rgba(0, 0, 0, .1);
-}
-
-.link-dark:hover {
-	color: rgba(0, 0, 0, .5);
-	border-bottom-color: rgba(0, 0, 0, .05);
-}
-
-.link-light {
-	color: rgb(255, 255, 255);
-	border-bottom-color: rgba(0, 0, 0, .1);
-}
-
-.link-light:hover {
-	color: rgba(255, 255, 255, .7);
-	border-bottom-color: rgba(0, 0, 0, .05);
-}
-
 h1 {
 	margin-top: 0px;
 	margin-bottom: 12px;
@@ -84,6 +64,27 @@ p {
 .inv {
 	color: rgb(255, 255, 255);
 }
+
+.link-dark {
+	color: rgb(0, 0, 0);
+	border-bottom-color: rgba(0, 0, 0, .1);
+}
+
+.link-dark:hover {
+	color: rgba(0, 0, 0, .5);
+	border-bottom-color: rgba(0, 0, 0, .05);
+}
+
+.link-light {
+	color: rgb(255, 255, 255);
+	border-bottom-color: rgba(0, 0, 0, .1);
+}
+
+.link-light:hover {
+	color: rgba(255, 255, 255, .7);
+	border-bottom-color: rgba(0, 0, 0, .05);
+}
+
 
 .logo {
 	height: 20px;
