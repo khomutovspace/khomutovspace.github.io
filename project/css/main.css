@@ -150,9 +150,8 @@ p {
 .card {
 	height: auto;
 	width: 100%;
+	margin-bottom: 20px;
 	padding: 10px 15px 10px 15px;
-	font-size: 16px;
-	line-height: 24px;
 	border-radius: 5px;
 	background-color: rgb(255, 255, 255);
 	transition: all 0.3s ease-out;
@@ -165,5 +164,5 @@ p {
 }
 
 .card:hover {
-	box-shadow: 0pt 5pt 15pt 0pt rgba(0, 0, 0, .20);
+	box-shadow: 0pt 5pt 15pt 0pt rgba(0, 0, 0, .1);
 }
