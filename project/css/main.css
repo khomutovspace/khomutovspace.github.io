@@ -1,5 +1,7 @@
+/*usual elements*/
+
 body {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'rubik', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	color: rgb(0, 0, 0);
@@ -52,13 +54,15 @@ p {
 	line-height: 26px;
 }
 
+/*layouts*/
+
 .header {
 	padding-top: 40px;
 	padding-bottom: 20px;
 }
 
 .body {
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
@@ -67,21 +71,25 @@ p {
 	padding-bottom: 20px;
 }
 
-.green {
-	background-color: rgb(104, 143, 78);
-}
-
 .top {
 	margin-top: 30px;
+}
+
+/*colors*/
+
+.accent {
+	color: rgb(140, 181, 139);
+}
+
+.accent-bg {
+	background-color: rgb(140, 181, 139);
 }
 
 .inv {
 	color: rgb(255, 255, 255);
 }
 
-.accent {
-	color: rgb(104, 143, 78);
-}
+/*elements*/
 
 .link-dark {
 	color: rgb(0, 0, 0);
@@ -104,12 +112,12 @@ p {
 }
 
 .link-accent {
-	color: rgb(104, 143, 78);
+	color: rgb(140, 181, 139);
 	border-bottom-color: rgba(0, 0, 0, .1);
 }
 
 .link-accent:hover {
-	color: rgba(104, 143, 78, .7);
+	color: rgba(140, 181, 139, .7);
 	border-bottom-color: rgba(0, 0, 0, .05);
 }
 
@@ -166,22 +174,6 @@ p {
 	border-radius: 5px;
 }
 
-.hide {
-	display: none;
-}
-
-.icon-big {
-	margin-left: 10px;
-	font-size: 14px;
-	vertical-align: middle;
-}
-
-.icon-small {
-	margin-left: 10px;
-	font-size: 12px;
-	vertical-align: middle;
-}
-
 .card {
 	height: auto;
 	width: 100%;
@@ -200,19 +192,4 @@ p {
 
 .card:hover {
 	box-shadow: 0pt 5pt 15pt 0pt rgba(0, 0, 0, .1);
-}
-
-.code-img {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	width: 30%;
-	height: auto;
-}
-
-.small {
-	font-size: 16px;
-	line-height: 24px;
 }
